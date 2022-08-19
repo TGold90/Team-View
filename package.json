@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/TGold90/Team-View#readme",
   "dependencies": {
-    "inquirer": "^9.1.0",
-    "install": "^0.13.0"
+    "inquirer": "^8.2.4",
+    "jest": "^28.1.3"
   }
 }
