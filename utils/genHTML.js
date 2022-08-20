@@ -6,6 +6,20 @@ const genHTML = (data) => {
     });
     return managerText.join("");
   };
+  const intern = (arr) => {
+    const internText = [];
+    arr.forEach((int) => {
+      internText.push(`<div> name: ${int.name}`);
+    });
+    return internText.join("");
+  };
+  const engineer = (arr) => {
+    const engineerText = [];
+    arr.forEach((eng) => {
+      engineerText.push(`<div> name: ${eng.name}`);
+    });
+    return engineerText.join("");
+  };
   return `<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -16,6 +30,8 @@ const genHTML = (data) => {
     </head>
     <body>
         ${manager(data.filter((member) => member.getRole() === "Manager"))}
+        ${engineer(data.filter((member) => member.getRole() === "Engineer"))}
+        ${intern(data.filter((member) => member.getRole() === "Intern"))}
     </body>
     </html>`;
 };
