@@ -8,6 +8,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="/dist/style.css" />
   </head>
   <body>
@@ -19,6 +23,11 @@
           <div class="card manager column is-3 m-2">
             <header class="card-header role-header">
               <p class="card-header-title">Manager:</p>
+              <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-narwhal"></i>
+                </span>
+              </button>
             </header>
             <div class="card-content">
               <div class="content">
@@ -50,8 +59,32 @@
                   >
                 </p>
                 <footer class="card-footer pt-3">
-                  <p>GitHub: <a href="https://github.com/${data.credits}" target="_blank"
-                    >data here</a</p>
+                  <p>
+                    GitHub:
+                    <a href="https://github.com/${data.credits}" target="_blank"
+                      >data here</a
+                    >
+                  </p>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+          <div class="card intern column is-3 m-2">
+            <header class="card-header role-header">
+              <p class="card-header-title">Intern:</p>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <p>ID:</p>
+                <p>
+                  Email:
+                  <a href="mailto: thomaswgold90@gmail.com" target="_blank"
+                    >data here</a
+                  >
+                </p>
+                <footer class="card-footer pt-3">
+                  <p>School:</p>
                 </footer>
               </div>
             </div>

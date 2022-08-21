@@ -1,15 +1,42 @@
 html {
   box-sizing: border-box;
-  background-color: salmon;
+  background-color: #ccdbdc;
 }
 
-header {
+/* header {
   display: flex;
   height: 200px;
   width: 100%;
   background-color: bisque;
-}
+} */
 
 .role-header {
   height: 100px;
+  background-color: #003249;
+  color: #ccdbdc;
+}
+
+.manager {
+  background-color: #9ad1d4;
+}
+
+.intern {
+  background-color: #80ced7;
+}
+
+.engineer {
+  background-color: #007ea7;
+}
+
+.headTitle {
+  color: #ccdbdc;
+}
+
+.man-header {
+}
+
+.int-header {
+}
+
+.eng-header {
 }
