@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  /* background-color: salmon; */
+  background-color: salmon;
 }
 
 header {
@@ -8,4 +8,8 @@ header {
   height: 200px;
   width: 100%;
   background-color: bisque;
+}
+
+.role-header {
+  height: 100px;
 }
