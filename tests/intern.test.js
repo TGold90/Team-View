@@ -7,7 +7,7 @@ describe("Intern", () => {
   const school = "University of Oregon";
   const role = "Intern";
   const ernie = new Intern(name, id, email, school);
-  describe("getOfficeNumber", () => {
+  describe("getSchool", () => {
     it("should return a string", () => {
       expect(ernie.getSchool()).toMatch(school);
     });
